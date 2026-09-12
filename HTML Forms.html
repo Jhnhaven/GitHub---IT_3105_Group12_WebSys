@@ -1,0 +1,31 @@
+
+<body>
+    <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname">
+    </form>
+    <form>
+        <label for="phonenumber">Phone Number:</label>
+        <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">        
+    </form>
+    <form>
+        <label for="color">Colors:</label>
+        <input list="pk-opts" id="pk=choice" name="pk-choice">
+        <datalist id="pk-opts">
+            <option value="pink">
+            <option value="peach">
+            <option value="periwinkle">
+            <option value="purple">Purple</option>
+        </datalist>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+
+
+
+
+
